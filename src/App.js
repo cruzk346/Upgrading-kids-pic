@@ -9,8 +9,8 @@ const App = () => {
 
   return (
     <div>
-      <h1>Draw on the Canvas</h1>
-      <Canvas />
+      <label for="sketch">Draw on the Canvas and submit to see results!</label>
+        <Canvas />
     </div>
   );
 }

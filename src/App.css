@@ -1,6 +1,28 @@
 canvas {
   display: block;
   margin: 0 auto;
-  background-color: white;
+  background-color: black;
+  border-radius: 5px;
 }
 
+#clear {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this line to center the content vertically */
+  margin-top: 20px;
+  flex-flow: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-size: auto;
+}
