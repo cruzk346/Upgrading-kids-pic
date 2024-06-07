@@ -1,5 +1,5 @@
 import React from 'react';
-import Canvas from './Canvas'; // Corrected the filename and capitalized 'Canvas'
+import Canvas from './Canvas';
 import './App.css';
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div>
-      <label for="sketch">Draw on the Canvas and submit to see results!</label>
+      <h2>Draw on the Canvas and submit to see results!</h2>
         <Canvas />
     </div>
   );

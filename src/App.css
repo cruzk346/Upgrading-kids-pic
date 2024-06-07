@@ -1,11 +1,11 @@
-canvas {
+canvas#submitcanvas {
   display: block;
   margin: 0 auto;
   background-color: black;
   border-radius: 5px;
 }
 
-#clear {
+/* #clear {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -14,15 +14,77 @@ canvas {
   border-radius: 5px;
   background-color: white;
   cursor: pointer;
+} */
+
+.image-button {
+  background: none; /* Remove default button styling */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.image-button img {
+  display: block;
+  max-width: 40px;
+  height: auto;
 }
 
 form {
+  background-color: honeydew;
   display: flex;
   justify-content: center;
   align-items: center; /* Add this line to center the content vertically */
-  margin-top: 20px;
+  margin: 20px;
   flex-flow: column;
   border: 1px solid black;
   border-radius: 5px;
+  padding: 20px;
   background-size: auto;
+}
+h2 {
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+img#savedCanvas {
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* margin-right: 20px; */
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+img#generatedPic {
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+a {
+  text-decoration: none;
+  align-self: center;
+}
+div#results {
+  background-color: grey;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div#generated{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+  padding: auto;
 }
